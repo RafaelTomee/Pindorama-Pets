@@ -6,6 +6,23 @@
 
 .quem-somos h3 {
     font-weight: bold;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
+    color: #063643;
+}
+.quem-somos p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #063643;
+    line-height: 26px;
+    letter-spacing: 2%;
+    width: 699px;
+    height: 104px;
+    top: 93px;
+    left: 862px;
+}
+.quem-somos img{
+    width: 30vw;
+    height: 37.5vh;
 }
