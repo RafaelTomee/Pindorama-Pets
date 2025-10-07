@@ -1,0 +1,11 @@
+.quem-somos {
+    background-color: #89C5D5;
+    height: 300px;
+    width: auto;
+}
+
+.quem-somos h3 {
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 24px;
+}
