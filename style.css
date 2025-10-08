@@ -1,3 +1,7 @@
+.sobre-nos{
+    display: flex;
+}
+
 .quem-somos {
     background-color: #89C5D5;
     height: 300px;
