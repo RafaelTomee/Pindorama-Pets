@@ -6,6 +6,7 @@
     background-color: #89C5D5;
     height: 300px;
     width: auto;
+    top: 1002px;
 }
 
 .quem-somos h3 {
@@ -27,6 +28,80 @@
     left: 862px;
 }
 .quem-somos img{
+    position: absolute; 
     width: 30vw;
     height: 37.5vh;
+    left: 459px;
+}
+
+.nossos-servicos{
+    background-color: #63B3C9;
+    width: 1920px;
+    height: 418px;
+}
+
+.nossos-servicos h3{
+    font-weight: bold;
+    color: #063643;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.nossos-servicos p {
+    width: 620px;
+    height: 150px;
+    top: 37px;
+    left: 862px;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+
+    color: #063643;
+}
+
+.nossos-servicos img{
+    position: absolute; 
+    width: 25vw;
+    height: 36.11vh;
+    top: 15px;
+    left: 450px;
+    border: 1px solid #63B3C9;
+    border-radius: 8px;
+}
+
+.cuidados{
+    background-color: #89C5D5;
+    width: 1920px;
+    height: 325px;
+    top: 418px;
+}
+
+.cuidados p{
+    width: 620px;
+    height: 120px;
+    top: 83px;
+    left: 466px;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+
+    color: #063643;
+}
+
+.cuidados img{
+    position: absolute; 
+    width: 25vw;
+    height: 36.11vh;
+    top: 25px;
+    left: 1150px;
+    border: 1px solid #63B3C9;
+    border-radius: 8px;
 }
