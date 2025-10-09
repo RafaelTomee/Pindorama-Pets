@@ -1,12 +1,19 @@
 .sobre-nos{
     display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
 }
 
 .quem-somos {
     background-color: #89C5D5;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
     height: 300px;
     width: auto;
     top: 1002px;
+    
+    
 }
 
 .quem-somos h3 {
@@ -14,6 +21,8 @@
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: #063643;
+    margin-bottom: 10px;
+    
 }
 .quem-somos p{
     font-weight: 400;
@@ -22,22 +31,34 @@
     color: #063643;
     line-height: 26px;
     letter-spacing: 2%;
-    width: 699px;
+    width: 620px;
     height: 104px;
     top: 93px;
     left: 862px;
+    margin-top: 40px;
+    
+}
+
+.quem-somos-texto{
+    display: flex;
+    flex-direction: column;
+    order: 2;
 }
 .quem-somos img{
-    position: absolute; 
-    width: 30vw;
-    height: 37.5vh;
+    width: 15vw;
+    height: auto;
     left: 459px;
+    order: 1;
 }
 
 .nossos-servicos{
+    display: flex;
+    align-items: center;
+    gap: 90px;
     background-color: #63B3C9;
     width: 1920px;
     height: 418px;
+    justify-content: center;
 }
 
 .nossos-servicos h3{
@@ -45,15 +66,16 @@
     color: #063643;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
+    order: 1;
+    margin-top: 40px;
 }
 
 .nossos-servicos p {
     width: 620px;
-    height: 150px;
-    top: 37px;
-    left: 862px;
+    height: 120px;
+    
 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -61,17 +83,24 @@
     letter-spacing: 2%;
 
     color: #063643;
+    
+    order: 2;
 }
 
 .nossos-servicos img{
-    position: absolute; 
-    width: 25vw;
-    height: 36.11vh;
+    width: 18vw;
+    height: 30vh;
     top: 15px;
     left: 450px;
     border: 1px solid #63B3C9;
     border-radius: 8px;
+    order: 1;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
+
+
 
 .cuidados{
     background-color: #89C5D5;
@@ -97,7 +126,6 @@
 }
 
 .cuidados img{
-    position: absolute; 
     width: 25vw;
     height: 36.11vh;
     top: 25px;
